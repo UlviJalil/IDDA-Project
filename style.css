@@ -1,0 +1,493 @@
+body {
+  background-color: #fbfbff;
+}
+
+.header-container {
+  width: 100%;
+  height: 70px;
+  background-color: #fbfbff;
+  display: flex;
+}
+
+.header-container .buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.buttons .btn1 {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #007bff;
+  width: 95px;
+  height: 35px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5x;
+}
+
+.buttons .btn2 {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #007bff;
+  width: 285px;
+  height: 35px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons .btn3 {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #007bff;
+  width: 185px;
+  height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon .fa-solid {
+  width: 45px;
+  height: 45px;
+  background-color: #f3f3f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: absolute;
+  right: 100px;
+  cursor: pointer;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: #025fbe;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  gap: 30px;
+}
+
+.card-container .card1 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card1-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card1-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card2 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card2-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card2-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card3 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card3-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card3-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card4 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card4-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card4-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card5 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card5-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card5-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card6 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card6-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card6-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card7 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card7-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card7-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card8 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card8-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card8-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card9 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card9-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card9-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card10 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card10-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card10-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card11 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card11-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card11-content .fa-clock {
+  margin-right: 10px;
+}
+
+.card-container .card12 {
+  width: 370px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.card12-content {
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #025fbe;
+}
+
+.card12-content .fa-clock {
+  margin-right: 10px;
+}
+
+.number-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
+.number-buttons .btn1 {
+  width: 40px;
+  height: 40px;
+  background-color: #ccddf2;
+  border: 1px solid #ccddf2;
+  color: #025fbe;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.number-buttons .btn2 {
+  width: 40px;
+  height: 40px;
+  background-color: #ccddf2;
+  border: 1px solid #ccddf2;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #025fbe;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.number-buttons .btn3 {
+  width: 40px;
+  height: 40px;
+  background-color: #ccddf2;
+  border: 1px solid #ccddf2;
+  border-radius: 5px;
+  color: #025fbe;
+  cursor: pointer;
+}
+
+.number-buttons .btn4 {
+  width: 40px;
+  height: 40px;
+  background-color: #ccddf2;
+  border: 1px solid #ccddf2;
+  border-radius: 5px;
+  color: #025fbe;
+  cursor: pointer;
+}
+
+.number-buttons .btn5 {
+  width: 40px;
+  height: 40px;
+  background-color: #025fbe;
+  border: 1px solid #ccddf2;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.number-buttons .btn6 {
+  width: 40px;
+  height: 40px;
+  background-color: #ccddf2;
+  border: 1px solid #ccddf2;
+  border-radius: 5px;
+  color: #025fbe;
+  cursor: pointer;
+}
+
+.number-buttons .btn7 {
+  width: 40px;
+  height: 40px;
+  background-color: #ccddf2;
+  border: 1px solid #ccddf2;
+  color: #025fbe;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.footer-container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7f8f9;
+  margin-top: 100px;
+}
+
+.footer-container img {
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  left: 300px;
+  font-size: 23px;
+}
+
+.social-buttons .fa-facebook {
+  color: #1877F2;
+}
+
+.social-buttons .fa-linkedin-in {
+  color: #0077b5;
+}
+
+.social-buttons .fa-instagram {
+  color: #E1306C;
+}
+
+.social-buttons .fa-twitter {
+  color: #1DA1F2;
+}
+
+.social-buttons .fa-youtube {
+  color: #FF0000;
+}
+
+.footer-header ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 40px;
+  color: gray;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-section2 ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 200px;
+  position: relative;
+  bottom: 30px;
+  color: gray;
+}
+
+.footer-section2 .location-li {
+  position: relative;
+  right: 80px;
+}/*# sourceMappingURL=style.css.map */
